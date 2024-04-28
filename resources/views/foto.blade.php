@@ -12,7 +12,7 @@
 
 <body>
 
-    <div class="container">
+    <div class="container mt-5">
         <div class="row d-flex justify-content-center">
             <div class="col-md-6">
                 <h4 class="text-center">Tambah Foto</h4>

@@ -52,16 +52,7 @@
                 <div class="col-md-4 mb-4">
                     <div class="card bg-dark">
                         <div class="position-relative">
-                            <form action="{{ route('delete.potos', ['id' => $photo->id]) }}" method="POST"
-                                onsubmit="return confirm('Apakah Anda yakin ingin menghapus foto ini?');">
-                                @csrf
-                                @method('DELETE')
-                                <button type="submit"
-                                    class="btn btn-primary btn-sm position-absolute top-0 start-0 mt-2 ms-2"
-                                    onclick="confirmDelete({{ $photo->id }})">
-                                    <i class="fas fa-trash-alt"></i>
-                                </button>
-                            </form>
+
 
                             <img src="{{ asset($photo->lokasifile) }}" class="card-img-top" alt="...">
                         </div>
